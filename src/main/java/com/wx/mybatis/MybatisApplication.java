@@ -28,7 +28,7 @@ public class MybatisApplication {
 
     //private static String projectRootPath = "D:\\gitrepository\\titan-server";
     private static String projectRootPath = "D:\\gitrepository\\biaoguoworks\\demeter";
-    private static String PARENT_PKG = "com.biaoguoworks.demeter";
+    private static String PARENT_PKG = "com.biaoguoworks.demeter.purchase";
     private static String ENTITY_PKG = "domain";
     private static String Mapper_PKG = "dao";
     private static String SERVICE_PKG = "service";
@@ -38,7 +38,8 @@ public class MybatisApplication {
     private static String USERNAME = "remote";
     private static String PASSWORD = "123qweASD!@#";
     private static String TABLE_PREFIX = "demeter";
-    private static String MAPPER_PATH = "/src/main/resources/mapper/demeter/";
+    private static String MAPPER_PATH = "/src/main/resources/mapper/purchase/";
+
 
 
     /**
