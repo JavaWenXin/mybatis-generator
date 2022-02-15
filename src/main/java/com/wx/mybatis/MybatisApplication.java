@@ -25,20 +25,33 @@ import java.util.List;
 import java.util.Scanner;
 
 public class MybatisApplication {
+//    private static String projectRootPath = "D:\\gitrepository\\biaoguoworks\\wcs";
+//    private static String PARENT_PKG = "com.biaoguoworks.demeter.wcs";
+//    private static String JDBC_URL = "jdbc:mysql://47.92.214.223:3306/wcs?useUnicode=true&useSSL=false&characterEncoding=utf8";
+//    private static String MAPPER_PATH = "/src/main/resources/mapper";
+//    private static String TABLE_PREFIX = "wcs";
 
-    //private static String projectRootPath = "D:\\gitrepository\\titan-server";
+
     private static String projectRootPath = "D:\\gitrepository\\biaoguoworks\\demeter";
-    private static String PARENT_PKG = "com.biaoguoworks.demeter.purchase";
+    private static String PARENT_PKG = "com.biaoguoworks.demeter.property";
+    private static String JDBC_URL = "jdbc:mysql://47.92.214.223:3306/biaoguoworks?useUnicode=true&useSSL=false&characterEncoding=utf8";
+    private static String MAPPER_PATH = "/src/main/resources/mapper/property/";
+    private static String TABLE_PREFIX = "demeter";
+
+//    private static String projectRootPath = "D:\\gitrepository\\biaoguoworks\\work-overtime";
+//    private static String PARENT_PKG = "com.biaoguoworks.demeter.overtime";
+//    private static String JDBC_URL = "jdbc:mysql://47.92.214.223:3306/td_work?useUnicode=true&useSSL=false&characterEncoding=utf8";
+//    private static String MAPPER_PATH = "/src/main/resources/mapper/";
+//    private static String TABLE_PREFIX = "td";
+
     private static String ENTITY_PKG = "domain";
     private static String Mapper_PKG = "dao";
     private static String SERVICE_PKG = "service";
     private static String SERVICE_IMPL_PKG = "service.impl";
-    private static String JDBC_URL = "jdbc:mysql://39.100.104.211:3306/biaoguoworks?useUnicode=true&useSSL=false&characterEncoding=utf8";
+
     private static String DRIVER_NAME = "com.mysql.cj.jdbc.Driver";
     private static String USERNAME = "remote";
     private static String PASSWORD = "123qweASD!@#";
-    private static String TABLE_PREFIX = "demeter";
-    private static String MAPPER_PATH = "/src/main/resources/mapper/purchase/";
 
 
 
